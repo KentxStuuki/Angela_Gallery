@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/AG.css">
+    <link rel="icon" href="img/AG logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <title>Angela's Gallery | Features Page</title>
+</head>
+    <header class="header">
+        <div class="right-header">
+            <img src="img/AG logo.png" alt="logo">
+        </div>
+        <div class="middle-header">
+            <nav class="nav-head">
+                <div class="navlink">
+                    <ul>
+                        <li><a href="Index.html">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="left-header">
+            <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+            <a href="#"><i class="ri-instagram-fill"></i></a>
+            <a href="#"><i class="ri-tiktok-fill"></i></a>
+        </div>
+    </header>
+<body>
+<section class="features-page-section">
+    <div class="feature-page"><h1>Featured Works</h1></div>
+<section class="video-section">
+    <!-- Video container -->
+    <div class="video-1">
+        <div class="video-container">
+            <video width="350" height="450" loop autoplay muted>
+                <source src="vid/video1.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-phar">
+            <h1>Cutting-Edge Cameras</h1>
+            <p>Our state-of-the-art cameras capture stunning high-resolution images with exceptional detail and clarity.</p>
+        </div>
+    </div>
+    <div class="video-2">
+        <div class="video-phar-2">
+            <h1>Click, capture, create</h1>
+            <p>Clicking the perfect moments while Capturing the essence and magic of the moment and Creating memories one frame at a time.</p>
+        </div>
+        <div class="video-container-2">
+            <video width="350" height="450" loop autoplay muted>
+                <source src="vid/video2.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+</section>
+<hr>
+<div class="row"> 
+    <div class="column">
+            <div>
+                <img src="img/image1.png"  onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                <img src="img/image9.png" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+                <img src="img/image2.png" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+                <img src="img/image10.png" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+            </div>
+        </div>
+    <div class="column">
+        <div>
+            <img src="img/image5.png" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+            <img src="img/image11.png" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+            <img src="img/image12.png" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+        </div>    
+    </div>
+    <div class="column">
+        <div>
+            <img src="img/image8.png" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+            <img src="img/image13.png" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
+            <img src="img/image14.png" onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
+            <img src="img/image3.png" onclick="openModal();currentSlide(11)" class="hover-shadow cursor">
+        </div>
+    </div>
+</div>
+<div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+        <div class="mySlides">
+            <div class="numbertext">1 / 11</div>
+            <img src="img/image1.png" >
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">2 / 11</div>
+            <img src="img/image9.png">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">3 / 11</div>
+            <img src="img/image2.png">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">4 / 11</div>
+            <img src="img/image10.png">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">5 / 11</div>
+            <img src="img/image5.png">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">6 / 11</div>
+            <img src="img/image11.png">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">7 / 1</div>
+            <img src="img/image12.png">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">8 / 11</div>
+            <img src="img/image8.png">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">9 / 11</div>
+            <img src="img/image13.png">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">10 / 11</div>
+            <img src="img/image14.png">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">11 / 11</div>
+            <img src="img/image7.png">
+        </div>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+</section>
+<hr>
+<footer>
+    <div class="footer-container">
+        <div class="footer-description">
+            <a href="#"><img src="img/AG logo.png" alt="Footer-logo"></a>
+            <h1><a href="">About</a></h1>
+            <p>Pictures aren't just a simple photo but a memory to keep in touch from the past.</p>
+        </div>
+        <div class="footer-services">
+            <h1><a href="">Services</a></h1>
+            <h1><a href="">Photography</a></h1>
+            <h1><a href="">Photoshop</a></h1>
+            <h1><a href="features.html">Feature</a></h1>
+        </div>
+        <div class="footer-socials">
+            <h1><a href="">Socials</a></h1>
+            <h1><a href="">Facebook</a></h1>
+            <h1><a href="">Instagram</a></h1>
+            <h1><a href="">Tiktok</a></h1>
+        </div>
+        <div class="footer-contact">
+            <h1><a href="">Contact</a></h1>
+            <p><a href=""><i class="fa-regular fa-envelope"></i> angelagallery@gmail.com</a></p>
+            <p><i class='fas fa-phone'></i> +63 972 344 2039</a></p>
+            <button onclick="topFunction()" class="back-to-top" id="myBtn" title="Go to top">Back to top</button>
+        </div>
+    </div>
+    <hr>
+    <div class="copy-right">
+        <p>&copy; Copyright 2024. All Rights Reserved. Created by: Mark Erolle D. Quiambao WD - 302</p>
+    </div>
+</footer>
+    <script>
+        function openModal() {
+        document.getElementById("myModal").style.display = "block";
+        }
+        
+        function closeModal() {
+        document.getElementById("myModal").style.display = "none";
+        }
+        
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+        showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+        showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        var captionText = document.getElementById("caption");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        captionText.innerHTML = dots[slideIndex-1].alt;
+        }
+          // Get the button
+        let mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+</html>

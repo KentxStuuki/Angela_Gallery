@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/AG.css">
+    <link rel="icon" href="img/AG logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <title>Angela's Gallery | Home Page</title>
+</head>
+    <header class="header">
+        <div class="right-header">
+            <img src="img/AG logo.png" alt="logo">
+        </div>
+        <div class="middle-header">
+            <nav class="nav-head">
+                <div class="navlink">
+                    <ul>
+                        <li><a href="Index.html">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="left-header">
+            <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+            <a href="#"><i class="ri-instagram-fill"></i></a>
+            <a href="#"><i class="ri-tiktok-fill"></i></a>
+        </div>
+    </header>
+<body>
+    <section id="home">
+        <div class="home-container">
+            <div class="home-image"><img src="img/home-page-cover.jpg" alt="AG cover photo"></div>
+            <div class="home-introduction">
+                <h1 class="line-1">I’m <span class="index-color">Angela Elilio</span> a </h1>
+                <h1 class="line-2">Photographer from</h1>
+                <h1 class="line-3">Philippines</h1>
+                <div class="description">
+                    <p>Pictures aren't just a simple photo but a memory to keep in touch from the past.</p>
+                </div>
+                <div class="read-more">
+                    <button >Read More</button>
+                </div>
+            </div>
+            </div>
+        </div>  
+    </section>
+    <section class="about-photographer">
+        <div class="about-photographer-container">
+            <div class="profile">
+                <div>
+                    <img src="img/profile.png" alt="prfoile picture" class="profile-img">
+                </div>
+            </div>
+            <div class="information">
+                <h1>Have you ever thought who is the <span class="index-color">photographer?</span></h1>
+                <p>Maybe, an artist. Instead of an easel - a tripod. Instead of brushes - a camera that transmits feelings and emotions in one shot. And one day opening the album, reviewing pictures in the minds memories begin to emerge, the same emotions that had been on the day of the shooting.</p>
+                <div class="about-button">
+                    <button>Read More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="feature"><h1>Featured Work</h1></div>
+    <section class="feature-section">
+        <div class="feature-card"></div>
+        <div class="feature-card"></div>
+        <div class="feature-card"></div>
+    </section>
+    <hr>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-description">
+                <a href="#"><img src="img/AG logo.png" alt="Footer-logo"></a>
+                <h1><a href="">About</a></h1>
+                <p>Pictures aren't just a simple photo but a memory to keep in touch from the past.</p>
+            </div>
+            <div class="footer-services">
+                <h1><a href="">Services</a></h1>
+                <h1><a href="">Photography</a></h1>
+                <h1><a href="">Photoshop</a></h1>
+                <h1><a href="features.html">Feature</a></h1>
+            </div>
+            <div class="footer-socials">
+                <h1><a href="">Socials</a></h1>
+                <h1><a href="">Facebook</a></h1>
+                <h1><a href="">Instagram</a></h1>
+                <h1><a href="">Tiktok</a></h1>
+            </div>
+            <div class="footer-contact">
+                <h1><a href="">Contact</a></h1>
+                <p><a href=""><i class="fa-regular fa-envelope"></i> angelagallery@gmail.com</a></p>
+                <p><i class='fas fa-phone'></i> +63 972 344 2039</a></p>
+                <button onclick="topFunction()" class="back-to-top" id="myBtn" title="Go to top">Back to top</button>
+            </div>
+        </div>
+        <hr>
+        <div class="copy-right">
+            <p>&copy; Copyright 2024. All Rights Reserved. Created by: Mark Erolle D. Quiambao WD - 302</p>
+        </div>
+    </footer>
+    <script>
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        }
+        </script>
+</body>
+</html>
