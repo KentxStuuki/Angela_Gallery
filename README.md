@@ -3,7 +3,7 @@
 - What is Angela's Gallery? Angela's Gallery is a small studio business that is being run and lead by `Angela Elilio`.   
 
 ## How to use the code?
--- To start a local development server, run:
+- To start a local development server, run:
 
 ```bash
 ng serve
