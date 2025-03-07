@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+    
+    /* Main Colors */ 
+    --primary-color: ;
+    --secondary-color: ;
+
+    /* Font Colors */
+    --default-font-color: ;
+    --highlight-font-color: ;
+
+    /* Font Weights */
+    --defualt-font-size: 2.4rem;
+    --biggest-font-size: 2.6rem;
+    --big-font-size: 1.8rem;
+    --medium-font-size: 1.4rem;
+    --normal-font-size: 1.2rem;
+    --small-font-size: 1rem;
+    --smaller-font-size: .8rem;
+    --smallest-font-size: .1rem;
+
+    /* Font Family */
+    --title-font: 'ITC Avant Garde', sans-serif;
+    --body-font: 'Neue Montreal', sans-serif;
+
+}
