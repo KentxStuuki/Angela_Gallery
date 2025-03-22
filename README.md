@@ -59,6 +59,8 @@ memory to keep in touch from the past.
 
 ## What is the purpose of this project?
 
-- The purpose of this project is to add more pages like `About`, `Gallery`, and `Contact` and make sure to deploy and can be used in through showcase here services and skills. Another purpose of this project it to improve my past skills and also make sure to upgrade and use the previous project on `WEBPUB` as a foundation and a start up on the `Angular` project type website. 
+- The purpose of this project is to add more pages like `About`, `Gallery`, and `Contact` and make sure to deploy and can be used in through showcase here services and skills. Another purpose of this project it to improve my past skills and also make sure to upgrade and use the previous project on `WEBPUB` as a foundation and a start up on the `Angular` project type website.
+
+### Project Language
 
 
